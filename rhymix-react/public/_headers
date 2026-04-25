@@ -1,0 +1,7 @@
+# These headers are for documentation only.
+# Firebase Hosting headers are configured in firebase.json.
+
+/*
+  X-Frame-Options: SAMEORIGIN
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin

@@ -1,0 +1,9 @@
+{
+  "projects": {
+    "dev": "rhymix-ae041",
+    "production": "your-firebase-project-id",
+    "staging": "your-firebase-project-id-staging"
+  },
+  "targets": {},
+  "etags": {}
+}
