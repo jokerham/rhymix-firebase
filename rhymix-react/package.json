@@ -10,12 +10,14 @@
     "preview": "vite preview",
     "firebase:serve": "firebase serve --only hosting",
     "firebase:deploy": "firebase deploy --only hosting",
-    "firebase:staging": "firebase hosting:channel:deploy staging --expires 7d"
+    "firebase:staging": "firebase hosting:channel:deploy staging --expires 7d",
+    "check-env": "node scripts/check-env.cjs"
   },
   "dependencies": {
     "firebase": "^12.12.1",
     "react": "^19.2.5",
-    "react-dom": "^19.2.5"
+    "react-dom": "^19.2.5",
+    "zod": "^4.3.6"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
